@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" group="Organization2/IMKit" />
+      <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" group="Organization2/IMLib" />
+      <module fileurl="file://$PROJECT_DIR$/Organization2.iml" filepath="$PROJECT_DIR$/Organization2.iml" group="Organization2" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Organization2/app" />
+      <module fileurl="file://$PROJECT_DIR$/unityARGuide/unityARGuide.iml" filepath="$PROJECT_DIR$/unityARGuide/unityARGuide.iml" group="Organization2/unityARGuide" />
+    </modules>
+  </component>
+</project>

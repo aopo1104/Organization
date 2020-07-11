@@ -1,0 +1,36 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        jcenter(){url 'http://jcenter.bintray.com/'}
+        mavenCentral()  //注意下这个顺序，放在jcenter()上面
+        google()
+
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.2'
+        classpath "com.mob.sdk:MobSDK:2018.0319.1724"
+        classpath 'com.mob.sdk:MobSDK:+'
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+allprojects {
+    repositories {
+        jcenter(){url 'http://jcenter.bintray.com/'}
+        mavenCentral()  //注意下这个顺序，放在jcenter()上面
+        google()
+        maven { url "https://jitpack.io" }
+
+//        jcenter()
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

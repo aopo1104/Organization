@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.imkit"
+4    android:versionCode="2018101821"
+5    android:versionName="2.9.7 Stable" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:10:5-76
+16-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:10:22-73
+17    <!-- 获取机型信息权限 -->
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:12:5-75
+18-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:12:22-72
+19    <!-- 录音 -->
+20
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:15:5-71
+21-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:15:22-68
+22    <uses-permission android:name="android.permission.GET_TASKS" />
+22-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:16:5-68
+22-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:16:22-65
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:17:5-68
+23-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:17:22-65
+24    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+24-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:18:5-80
+24-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:19:5-66
+25-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:19:22-63
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:20:5-65
+26-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:20:22-62
+27    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+27-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:21:5-73
+27-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:21:22-70
+28    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+28-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:23:5-85
+28-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:23:22-82
+29    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+29-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:24:5-81
+29-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:24:22-78
+30    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+30-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:25:5-78
+30-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:25:22-75
+31    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+31-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:26:5-76
+31-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:26:22-73
+32
+33    <application>
+33-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:28:5-106:19
+34        <activity
+34-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:30:9-32:52
+35            android:name="io.rong.imkit.plugin.location.AMapLocationActivity"
+35-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:31:13-78
+36            android:screenOrientation="portrait" />
+36-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:32:13-49
+37        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity" />
+37-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:34:9-86
+37-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:34:19-83
+38        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity" />
+38-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:36:9-87
+38-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:36:19-84
+39        <activity
+39-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:38:9-41:71
+40            android:name="io.rong.imkit.plugin.location.SearchLocationActivity"
+40-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:39:13-80
+41            android:screenOrientation="portrait"
+41-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:40:13-49
+42            android:windowSoftInputMode="stateVisible|adjustResize" />
+42-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:41:13-68
+43        <activity
+43-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:43:9-45:52
+44            android:name="io.rong.imkit.plugin.image.PictureSelectorActivity"
+44-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:44:13-78
+45            android:screenOrientation="portrait" />
+45-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:45:13-49
+46        <activity
+46-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:47:9-49:52
+47            android:name="io.rong.imkit.plugin.image.PicturePreviewActivity"
+47-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:48:13-77
+48            android:screenOrientation="portrait" />
+48-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:49:13-49
+49
+50        <!-- 开发者可以修改 RongBaseActivity 的 rc_base_activity_layout 布局文件调整 actionbar -->
+51        <activity
+51-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:52:9-59:20
+52            android:name="io.rong.imkit.tools.RongWebviewActivity"
+52-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:53:13-67
+53            android:screenOrientation="portrait" >
+53-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:54:13-49
+54            <intent-filter>
+54-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:55:13-58:29
+55                <action android:name="io.rong.imkit.intent.action.webview" />
+55-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:56:17-78
+55-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:56:25-75
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:57:17-76
+57-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:57:27-73
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:61:9-64:52
+61            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+61-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:62:13-80
+62            android:configChanges="orientation|keyboardHidden"
+62-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:63:13-63
+63            android:screenOrientation="portrait" />
+63-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:64:13-49
+64        <activity
+64-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:66:9-73:20
+65            android:name="io.rong.imkit.activity.PicturePagerActivity"
+65-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:67:13-71
+66            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+66-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:68:13-71
+67            <intent-filter>
+67-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:69:13-72:29
+68                <action android:name="io.rong.imkit.intent.action.picturepagerview" />
+68-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:70:17-87
+68-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:70:25-84
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:57:17-76
+70-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:57:27-73
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:75:9-78:67
+74            android:name="io.rong.imkit.mention.MemberMentionedActivity"
+74-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:76:13-73
+75            android:configChanges="orientation|keyboardHidden"
+75-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:77:13-63
+76            android:windowSoftInputMode="adjustPan|stateHidden" />
+76-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:78:13-64
+77        <activity android:name="io.rong.imkit.activity.FileManagerActivity" />
+77-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:79:9-79
+77-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:79:19-76
+78        <activity android:name="io.rong.imkit.activity.FileListActivity" />
+78-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:80:9-76
+78-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:80:19-73
+79        <activity
+79-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:81:9-88:20
+80            android:name="io.rong.imkit.activity.FilePreviewActivity"
+80-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:82:13-70
+81            android:screenOrientation="portrait" >
+81-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:83:13-49
+82            <intent-filter>
+82-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:84:13-87:29
+83                <action android:name="io.rong.imkit.intent.action.openfile" />
+83-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:85:17-79
+83-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:85:25-76
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:57:17-76
+85-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:57:27-73
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:90:9-93:52
+89            android:name="io.rong.imkit.activity.CSLeaveMessageActivity"
+89-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:91:13-60
+90            android:configChanges="orientation|keyboardHidden"
+90-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:92:13-63
+91            android:screenOrientation="portrait" />
+91-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMKit/src/main/AndroidManifest.xml:93:13-49
+92
+93        <!-- 此部分代码需要移植到您的 app 下的 manifest，并且 authorities 指定您的包名。例如：com.android.FileProvider -->
+94        <!-- 否则使用拍照功能时，会崩溃 -->
+95        <!-- <provider -->
+96        <!-- android:name="android.support.v4.content.FileProvider" -->
+97        <!-- android:authorities="包名.FileProvider" -->
+98        <!-- android:grantUriPermissions="true" -->
+99        <!-- android:exported="false"> -->
+100        <!-- <meta-data -->
+101        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+102        <!-- android:resource="@xml/rc_file_path"/> -->
+103        <!-- </provider> -->
+104    </application>
+105
+106</manifest>

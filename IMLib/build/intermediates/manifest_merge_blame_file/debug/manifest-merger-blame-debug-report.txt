@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.imlib"
+4    android:versionCode="2018101821"
+5    android:versionName="2.9.7 Stable" >
+6
+7    <uses-sdk
+7-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:4:5-47
+8        android:minSdkVersion="16"
+8-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:4:5-47
+9        android:targetSdkVersion="23" />
+9-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:4:15-44
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:6:5-81
+11-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:7:5-67
+12-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:8:5-79
+13-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:9:5-76
+14-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:10:5-75
+15-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:10:22-72
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:11:5-71
+16-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:11:22-68
+17    <uses-permission android:name="android.permission.GET_TASKS" />
+17-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:12:5-68
+17-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:12:22-65
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:13:5-68
+18-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:13:22-65
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:14:5-80
+19-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:14:22-77
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:15:5-66
+20-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:15:22-63
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:16:5-79
+21-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:17:5-81
+22-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:17:22-78
+23
+24    <application>
+24-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:19:5-82:19
+25
+26        <!-- imlib config begin -->
+27        <meta-data
+27-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:22:9-24:45
+28            android:name="RONG_CLOUD_APP_KEY"
+28-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:23:13-46
+29            android:value="n19jmcy5n89i9" />
+29-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:24:13-42
+30
+31        <service
+31-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:26:9-29:38
+32            android:name="io.rong.imlib.ipc.RongService"
+32-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:27:13-57
+33            android:exported="true"
+33-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:28:13-36
+34            android:process=":ipc" />
+34-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:29:13-35
+35
+36        <receiver
+36-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:31:9-33:39
+37            android:name="io.rong.imlib.ConnectChangeReceiver"
+37-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:32:13-63
+38            android:exported="true" />
+38-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:33:13-36
+39        <receiver
+39-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:35:9-37:38
+40            android:name="io.rong.imlib.HeartbeatReceiver"
+40-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:36:13-59
+41            android:process=":ipc" />
+41-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:37:13-35
+42        <!-- imlib config end -->
+43
+44
+45        <!-- 必选： SDK 核心功能 -->
+46        <!-- 第三方相关,向第三方推送服务请求 token 的服务 -->
+47        <!-- 处理 push 消息相关的服务 -->
+48        <service
+48-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:44:9-47:72
+49            android:name="io.rong.push.core.PushRegistrationService"
+49-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:45:13-69
+50            android:exported="true"
+50-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:46:13-36
+51            android:permission="android.permission.BIND_JOB_SERVICE" />
+51-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:47:13-69
+52        <service
+52-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:49:9-52:72
+53            android:name="io.rong.push.core.MessageHandleService"
+53-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:50:13-66
+54            android:exported="true"
+54-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:51:13-36
+55            android:permission="android.permission.BIND_JOB_SERVICE" />
+55-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:52:13-69
+56        <!-- push服务 -->
+57
+58        <service
+58-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:55:9-59:46
+59            android:name="io.rong.push.PushService"
+59-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:56:13-52
+60            android:exported="true"
+60-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:57:13-36
+61            android:permission="android.permission.BIND_JOB_SERVICE"
+61-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:58:13-69
+62            android:process="io.rong.push" />
+62-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:59:13-43
+63
+64        <!-- push 相关事件接收器 -->
+65        <receiver
+65-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:62:9-77:20
+66            android:name="io.rong.push.PushReceiver"
+66-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:63:13-53
+67            android:process="io.rong.push" > <!-- 此处进程可以改名，名称需要和PushService所在进程统一 -->
+67-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:64:13-43
+68            <!-- 心跳事件和网络切换事件监听,必须 -->
+69            <intent-filter>
+69-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:66:13-69:29
+70                <action android:name="io.rong.push.intent.action.HEART_BEAT" />
+70-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:67:17-80
+70-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:67:25-77
+71                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+71-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:68:17-79
+71-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:68:25-76
+72            </intent-filter>
+73
+74            <!-- 部分用户事件监听, 用来提高推送拉活率; 可移除 -->
+75            <intent-filter>
+75-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:72:13-76:29
+76                <action android:name="android.intent.action.USER_PRESENT" />
+76-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:73:17-77
+76-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:73:25-74
+77                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+77-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:74:17-87
+77-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:74:25-84
+78                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+78-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:75:17-90
+78-->/Users/dingmingji11049/myFile/project/OrganizationProject/Organization2/IMLib/AndroidManifest.xml:75:25-87
+79            </intent-filter>
+80        </receiver>
+81
+82        <!-- 必选： SDK 核心功能 -->
+83
+84
+85        <!-- end -->
+86    </application>
+87
+88</manifest>
